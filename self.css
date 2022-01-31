@@ -1,0 +1,222 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display:flex;
+    position: absolute;
+    align-items: center;
+
+}
+.logo{
+    margin:7px 14px;
+
+}
+.logo img{
+    height:33px;
+    width: 33px;
+    margin: 5px 3px;
+}
+.navigationbox {
+    display: flex;
+    padding-left: 0rem;
+    position: sticky;
+    
+    
+}
+#home p{
+    font-family: 'Supermercado One', cursive;
+
+}
+.here{
+    align-items: center;
+    justify-content: center;
+}
+.navigationbox li {
+    list-style: none;
+    padding-right: 5px;
+    
+    
+}
+.navigationbox li a {
+    text-decoration: none;
+    cursor: pointer;
+    align-items: right;
+}
+#navbar::before{
+    content: " ";
+    background-color: grey;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     z-index: -1;
+     opacity: 0.2;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    height: 278px;
+    
+}
+#home::before{
+content: " ";
+ position: absolute;
+ background:url(images/use.jpg) no-repeat center center/cover;
+height: 90%;
+ width: 100%; 
+  z-index: -1;
+   opacity: 0.6 ;
+
+ }
+ #home h1{
+     font-size: 3rem;
+     color:black;
+     text-align: center;
+     margin:0;
+     padding: 12px;
+
+ }
+ #home p{
+     font-size: 1.6rem;
+     color: rgb(105, 7, 105);
+     margin: 0;
+     
+ }
+ .head h1{
+     margin:45px;  
+     margin-bottom: 5px;  
+ }
+ #services .head{
+    width: 298px;
+    margin-top:68px;
+       margin-left: auto;
+    margin-right: auto;
+    
+    
+ }
+ #services .box{
+     display: flex;
+     
+ }
+ #services .order{
+     border: solid burlywood 2px;
+     margin: 5px;
+     text-align: center;
+     border-radius: 17px;
+     padding: 25px;
+     
+ }
+ #services img{
+     height: 110px;
+ }
+ #contact .al{
+    width: 155px;
+    margin: auto;
+
+    
+ }
+ #contact{
+     position: relative;
+ }
+ #contact::before{
+    content: " ";
+     position: absolute;
+     background:url(images/cont.jpg) no-repeat center center/cover;
+    height: 100%;
+     width: 100%; 
+      z-index: -1;
+       opacity: 0.4 ;
+    
+     }
+h2,h3{
+    margin-top: 0;
+}
+    
+ .contact-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .form-group{
+     padding-bottom: 2px;
+     width: 40%;
+     height: 5%;
+ }
+ .contact-box input,
+ .contact-box textarea{
+     width: 100%;
+     padding: 4px;
+     border-radius: 6px;
+ }
+ .contact-box label{
+     font-size: 1.3rem;
+ } 
+ #about::before{
+    content: " ";
+     position: absolute;
+     background-color: rgb(62, 119, 5);
+    height: 111%;
+     width: 100%; 
+      z-index: -1;
+       opacity: 0.4 ;
+    
+
+     }
+.follow img{
+    height: 34px;
+    width: 45px;
+    padding: 4px;
+    margin-right: 5px;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+}
+#about{
+    position: relative;
+    margin-top: -20px;
+}
+#about .al{
+    width: 155px;
+    margin: auto;
+}
+.end {
+    background-color: rgb(40, 119, 5);
+
+}
+ .center{
+    
+    color:white;
+    text-align: center;
+    justify-content: center;
+    
+}
+.here .item{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.here .item :hover{
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 3px;
+}
+.end .last{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+.last p{
+    margin: 5px;
+}
