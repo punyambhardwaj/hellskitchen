@@ -1,0 +1,71 @@
+
+.food-menu-img img{
+    height: 155px;
+    width: 155px;
+    border-radius: 15px;
+
+}
+
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.fieldset{
+    margin: 23px;
+
+}
+.submi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+}
+.input-responsive{
+    padding-bottom: 2px;
+    width: 40%;
+    height: 5%;
+}
+
+ .submi textarea{
+     width: 40%;
+     padding: 4px;
+     border-radius: 6px;
+ }
+ .submi label{
+     font-size: 1.3rem;
+ }
+ .er{
+    text-align: center;
+ }
+.container{
+    text-align: center;
+}
